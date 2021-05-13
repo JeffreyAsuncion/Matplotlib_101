@@ -41,8 +41,8 @@ ax2.set_xlabel('Ages')
 ax2.set_ylabel('Median Salary (USD)')
 
 
-fig1.savefig(fig1.png)
-fig2.savefig(fig2.png)
+fig1.savefig('fig1.png')
+fig2.savefig('fig2.png')
 
 plt.tight_layout()
 plt.show()
